@@ -132,8 +132,9 @@ Phase_5_project/
 │  ├─ XGBoost precipitation prediction.png
 │  ├─ XGBoost temperature prediction.png
 ├─ .gitignore
-├─ Image recognition of patients with pneumonia.ipynb
+├─ EDA.ipynb
+├─ Final.ipynb
+├─ Models.ipynb
 ├─ README.md
-├─ Using the Vgg16 model to separate pneumonia caused by virus and bacteria.ipynb
 ├─ presentation.pdf
 ```
