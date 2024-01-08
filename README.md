@@ -5,6 +5,12 @@
 
 By: Joshua Ko
 <br>Email: joshuawko@gmail.com
+## Table of Contents
+* [The dangers of climate change](https://github.com/Jko0425/Phase_5_project?tab=readme-ov-file#the-dangers-of-climate-change)
+* [About the data](https://github.com/Jko0425/Phase_5_project?tab=readme-ov-file#about-the-data)
+* [Finding the best predictive model](https://github.com/Jko0425/Phase_5_project?tab=readme-ov-file#finding-the-best-predictive-model)
+* [Comparing the metrics of both models](https://github.com/Jko0425/Phase_5_project?tab=readme-ov-file#comparing-the-metrics-of-both-models)
+* [Conclusion](https://github.com/Jko0425/Phase_5_project?tab=readme-ov-file#conclusion)
 ## The dangers of climate change
 Climate change is a natural process that is responsible for developing the life that exists on Earth. However, there has been an acceleration of climate change due to human activity. As technology advances so does our need for electricity. Currently, most of our energy is sourced from burning fossil fuels; as a result, carbon emissions continue to rise and so does the surface temperature of the Earth. This problem is very expensive to solve, and according to the [Environmental Protection Agency](https://www.epa.gov/planandbudget/budget), their budget is around ten billion dollars with a workforce of 15000 employees. The EPA needs to allocate their budget accordingly. With the implementation of a predictive model, the EPA can use their budget efficiently and focus on areas that are more susceptible to climate change due to the cities' carbon emissions. This project aims to develop a model for the EPA that will predict the temperature and precipitation of the area depending on their carbon dioxide concentration.
 ## About the data
