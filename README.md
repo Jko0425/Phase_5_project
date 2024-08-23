@@ -71,34 +71,35 @@ The best XGBoost algorithm, on the other hand, is found by running a GridSearchC
 <br> __Temperature__
 |Site|Linear MSE|XGBoost MSE|
 |----:|------------|-------|
-|Boulder, CO | 0.0884 | 0.0939 |
-|Hilo International, HI | 0.0168 | 0.0124 |
-|Hohenpeissenberg, GM | 0.0642 | 0.0624|
-|Cape Florida, FL | 0.0316 |0.0297|
-|Los Angeles, CA | 0.0364 |0.0424|
-|San Francisco, CA |	0.0249 |	0.0254|
-|Vestmannaeyjar, IC |	0.0359 |	0.04|
-|Temple, TX | 0.0742 | 0.0894|
+|Boulder, CO |0.06323|0.8479|
+|Hilo International, HI |0.01599|-0.4259|
+|Hohenpeissenberg, GM |0.02578|0.7072|
+|Cape Florida, FL |0.02188|0.6011|
+|Los Angeles, CA |0.02972|0.6774|
+|San Francisco, CA |0.01492|0.5872|
+|Vestmannaeyjar, IC |0.02197|0.6817|
+|Temple, TX |0.03031|0.7838|
 
 <br> __Precipitation__
 |Site|Linear MSE|XGBoost MSE|
 |----:|------------|-------|
-|Boulder, CO	|0.7101	|0.6511|
-|Hilo International, HI	|1.8941|	1.4465|
-|Hohenpeissenberg, GM	|0.898|	0.875|
-|Cape Florida, FL	|1.3351	|1.2637|
-|Los Angeles, CA	|1.173	|1.1681|
-|San Francisco, CA	|1.4654	|1.3976|
-|Vestmannaeyjar, IC	|0.678	|0.6798|
-|Temple, TX	|1.0595	|0.8553|
+|Boulder, CO	|0.6667	|-0.7555|
+|Hilo International, HI	|1.5427|-0.2457|
+|Hohenpeissenberg, GM	|0.6692|0.2388|
+|Cape Florida, FL	|1.1124|0.3654|
+|Los Angeles, CA	|1.0983|-0.1408|
+|San Francisco, CA	|0.9883|-0.4005|
+|Vestmannaeyjar, IC	|0.5522|-0.3649|
+|Temple, TX	|1.1548|-1.4359|
 
 The XGBoost performed the best when predicting both temperature and precipitation. However, precipitation may be more challenging to predict than temperature. According to [this article](https://www.downtoearth.org.in/news/climate-change/rising-co2-can-lead-to-drier-amazon-and-bring-more-rain-in-african-and-pacific-forests-60682#:~:text=Scientists%20have%20discovered%20another%20factor,in%20African%20and%20Indonesian%20forests.), the rise of carbon dioxide in the Amazon leads to more rainfall in African and Pacific forests due to trade winds. This may explain the higher mean squared error for both linear and XGBoost models.
 
 ## Conclusion
-We recommend that the EPA use the XGBoost model to predict the temperature and precipitation. They can mainly focus on these cities:
-- Hilo Internation Airport
+We recommend that the EPA use the linear model to predict the temperature and precipitation. They can mainly focus on these cities:
+- San Francisco
 - Cape Florida
 - Vestmannaeyjar
+- Hohenpeissenberg
 - Boulder (rise in precipitation)
 
 With the EPA's limited budget, they can use the model to focus on cities that are vulnerable to climate change.
